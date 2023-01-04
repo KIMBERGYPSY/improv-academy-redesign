@@ -1,63 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Sorts+Mill+Goudy&display=swap');
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-} 
 
-li, a, button{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500px;
-    font-size: 16px;
-    color: #ffffff;
-    text-decoration: none;
 }
 
-
+li, a {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #2F3548;
+    text-decoration: none;
+}
 
 header {
     display: flex;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     padding: 30px 10%;
+    background-color: #ffffff;
 }
 
-.logo {
-    cursor: pointer;
+.logo{
+    cursor:pointer;
 }
 
-.nav__links {
+button {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #801C24;
+    text-decoration: none;
+}
+
+h4 {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #2F3548;
+    color: #ffffff;
+}
+
+
+
+.nav_links {
     list-style: none;
 }
 
-.nav__links li {
+.nav_links li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.nav__links li a {
+.nav_links li a {
     transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover {
-    color: #0088A9;
+.nav_links li a:hover {
+    color:#74A6B3;
 }
 
 button {
     padding: 9px 25px;
-    background-color: #801c24;
+    background-color: #801C24(0,136,169,1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition:all 0.3s ease 0s ;
 }
 
 button:hover {
-    background-color: #74a6b3
+    background-color: #74A6B3;
+    color:black
 }
-
 /* ************************************************** footer */
 #footer {
 	background: #2F3548;
